@@ -1,0 +1,23 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Root olarak 6'yı alalım;
+    a) 7>6 ise 6'nın soluna 7 yazıldı.
+    b) 5<6 ise 6'nın soluna 5 yazıldı.
+    c) 1<6 ise 6'nın soluna 1 yazıldı
+    d) 8>6 ve 8>7 ise 7'nin sağına 8 yazıldı.
+    e) 3<6, 3<5, 3>1 ise 1'in sağına 3 yazıldı.
+    f) 0<6, 0<5, 0<1 ise 1'in soluna 0 yazıldı.
+    g) 9>6, 9>7, 9>8 ise 8'in sağına 9 yazıldı.
+    h) 4<6, 4<5, 4>1, 4>3 ise 3'ün sağına 4 yazıldı.
+    i) 2<6, 2<5, 2>1, 2<3 ise 3'ün soluna 2 yazıldı.
+    
+    
+                          6
+                         / \
+                        5   7
+                       /     \
+                      1       8    
+                     / \       \
+                    0   3       9 
+                       / \
+                      2   4
